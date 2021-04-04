@@ -1,0 +1,36 @@
+.button{
+  display: inline-block;
+  border-radius: 35px;
+  padding: 16px 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.button--color--red{
+  background: #F5170E;
+  color: #fff;
+  border: 1px solid #F5170E;
+}
+
+.button--color--red:hover{
+  background: #DA0100;
+  color: #fff;
+  box-shadow: 0px 2px 4px 0px #DA0100 30%;
+}
+
+.button--color--white{
+  background: #fff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+.button--color--white:hover{
+  background: #F5170E;
+  color: #fff;
+}
+
+.button--size--small{
+  padding: 17px 29px;
+}

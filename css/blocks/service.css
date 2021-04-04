@@ -1,0 +1,32 @@
+.services__list {
+  padding: 98px 0 15px;
+}
+
+.services__item {
+  display: flex;
+  margin-bottom: 49px;
+}
+
+.services__img {
+  width: 482px;
+  border-radius: 5px;
+  margin-right: 56px;
+}
+
+.services__content {
+  width: 652px;
+}
+
+.services__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.services__text {
+  color: #303030;
+  margin-bottom: 32px;
+  min-height: 136px;
+}

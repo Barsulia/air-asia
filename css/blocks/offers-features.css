@@ -1,0 +1,64 @@
+.offers__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item{
+  width: calc(100%/3 - 18px);
+  min-height: 449px;
+  background: #fff;
+  color: #000000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.offers__content{
+  padding: 34px 22px 27px;
+}
+
+.offers__title{
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.offers__features{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.offers__feature{
+  text-align: center;
+}
+
+.features{
+  display: flex;
+  align-items: center;
+}
+
+.features__icon{
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 6px;
+}
+
+.features--calendar .features__icon{
+  background-image: url(./../../img/calendar.png);
+}
+.features--meal .features__icon{
+  background-image: url(./../../img/meal.png);
+}
+
+.features__text{
+  color: #666666;
+  margin-right: 34px;
+}
+
+.offers__text{
+  margin-bottom: 24.5px;
+  color: #303030;
+  font-size: 14px;
+  line-height: 21px;
+}

@@ -1,0 +1,25 @@
+.footer-container__section {
+  padding-top: 21px;
+}
+
+.footer-container__section:before{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  width: 100%;
+  height: 2px;
+  top: -27px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inner-footer__container {
+  padding: 47px 0 32px;
+}

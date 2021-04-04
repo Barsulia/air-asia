@@ -1,0 +1,7 @@
+.logo{
+  display: block;
+}
+
+.logo--size--big .menu {
+  margin-left: 66px;
+}
