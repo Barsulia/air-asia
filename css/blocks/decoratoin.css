@@ -1,0 +1,18 @@
+.decoration {
+  min-height: 363px;
+  background: url(./../../img/couple.png) right 22% bottom no-repeat, 
+  url(./../../img/reviews-inner-bg.png) center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.decoration__content {
+  max-width: 50%;;
+}
+
+.decoration__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.36;
+}

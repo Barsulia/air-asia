@@ -1,5 +1,5 @@
 .menu{
-  margin-left: 79px;
+  margin-left: 66px;
 }
 
 .menu__list{
@@ -25,4 +25,5 @@
 
 .menu__link:hover{
   color: #DA0100;
+  transition: .3s;
 }
